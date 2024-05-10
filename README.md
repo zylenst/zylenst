@@ -2,21 +2,21 @@
 
 **About Me:**
 
-**🧠 Technical Expertise & Programming Proficiency:** Proficient in a multitude of programming languages such as Python, C/C++, JavaScript, React, HTML/CSS, Typescript, and even MIPS assembly, I am deeply immersed in the world of technology.
+  **🧠 Technical Expertise & Programming Proficiency:** Proficient in a multitude of programming languages such as Python, C/C++, JavaScript, React, HTML/CSS, Typescript, and even   MIPS assembly, I am deeply immersed in the world of technology.
 
-**🎨 Creative Design and Photography:** When not engrossed in coding endeavors, I indulge in capturing celestial marvels or embarking on aerial photography adventures.
+  **🎨 Creative Design and Photography:** When not engrossed in coding endeavors, I indulge in capturing celestial marvels or embarking on aerial photography adventures.
 
-**🛫 Passion for Aviation:** As an enthusiast of aviation, I remain abreast of the latest advancements in the field, perpetually fascinated by its evolution.
+  **🛫 Passion for Aviation:** As an enthusiast of aviation, I remain abreast of the latest advancements in the field, perpetually fascinated by its evolution.
 
-**⌚ Appreciation for Horology:** With a discerning eye for fine timepieces, I revel in the craftsmanship and elegance they embody, avidly collecting and studying various watch brands and complications.
+  **⌚ Appreciation for Horology:** With a discerning eye for fine timepieces, I revel in the craftsmanship and elegance they embody, avidly collecting and studying various watch   brands and complications.
 
-**💼 Investment Strategy Advocate:** A fervent advocate for astute investment decisions, I am committed to navigating the financial markets strategically to realize long-term wealth objectives.
+  **💼 Investment Strategy Advocate:** A fervent advocate for astute investment decisions, I am committed to navigating the financial markets strategically to realize long-term     wealth objectives.
 
-**🔧 Mechanical Engineering Proficiency:** Rooted in a background in mechanical engineering, I possess a comprehensive understanding of engines and mechanical systems, driven by an insatiable curiosity for their intricacies.
+  **🔧 Mechanical Engineering Proficiency:** Rooted in a background in mechanical engineering, I possess a comprehensive understanding of engines and mechanical systems, driven by   an insatiable curiosity for their intricacies.
 
-**🖥️ macOS Enthusiast:** I harbor a keen interest in macOS, continuously exploring its capabilities and pushing its boundaries through innovative projects and experiments.
+  **🖥️ macOS Enthusiast:** I harbor a keen interest in macOS, continuously exploring its capabilities and pushing its boundaries through innovative projects and experiments.
 
-**My Role at Godwin Austen Labs:**
+  **My Role at Godwin Austen Labs:**
 
 At Godwin Austen Labs, we specialize in delivering unparalleled business solutions, harnessing AI technology, and devising sophisticated marketing strategies for local enterprises and e-commerce entities.
 
