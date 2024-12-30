@@ -2024,17 +2024,84 @@
       </style>
     </noscript>
     <style type="text/css"></style>
-    <style></style>
+    <style>
+      /* HTML: <div class="loader"></div> */
+		#loader {
+			width: 40px;
+			height: 20px;
+			--c: no-repeat radial-gradient(farthest-side, #ffffff 93%, #0000);
+			background:
+				var(--c) 0 0,
+				var(--c) 50% 0;
+			background-size: 10px 10px;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			clip-path: inset(-200% -100% 0 0);
+			animation: l6-0 1.5s linear infinite;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 1000;
+		}
+		
+		#loader:before {
+			content: "";
+			position: absolute;
+			width: 8px;
+			height: 12px;
+			background: #fbfafa;
+			left: -16px;
+			top: 0;
+			border-radius: 5px;
+			animation:
+				l6-1 1.5s linear infinite,
+				l6-2 0.5s cubic-bezier(0, 200, .8, 200) infinite;
+		}
+		
+		#loader:after {
+			content: "";
+			position: absolute;
+			inset: 0 0 auto auto;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: #ffffff;
+			animation: l6-3 1.5s linear infinite;
+		}
+		
+		@keyframes l6-0 {
+			0%, 30% { background-position: 0 0, 50% 0 }
+			33% { background-position: 0 100%, 50% 0 }
+			41%, 63% { background-position: 0 0, 50% 0 }
+			66% { background-position: 0 0, 50% 100% }
+			74%, 100% { background-position: 0 0, 50% 0 }
+		}
+		
+		@keyframes l6-1 {
+			90% { transform: translateY(0) }
+			95% { transform: translateY(15px) }
+			100% { transform: translateY(15px); left: calc(100% - 8px) }
+		}
+		
+		@keyframes l6-2 {
+			100% { top: -0.1px }
+		}
+		
+		@keyframes l6-3 {
+			0%, 80%, 100% { transform: translate(0) }
+			90% { transform: translate(26px) }
+		}
+    </style>
   </head>
-
+  
   <body class="is-ready">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      version="1.1"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 0 40 40"
-      display="none"
-      width="0"
+    <div id="loader"></div>
+    <div id="content" style="display: none;">
+  
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40"
+        display="none" width="0"
       height="0"
     >
       <symbol id="icon-80dc50be409b6c0a58c1f62335c07e7d" viewBox="0 0 40 40">
@@ -2083,7 +2150,7 @@
                 <div>
                   <div id="image01" class="style1 image">
                     <span class="frame"
-                      ><img src="assets/me.jpeg" alt=""
+                      ><img src="assets/me.JPG" alt=""
                     /></span>
                   </div>
                 </div>
@@ -2106,9 +2173,9 @@
               <div class="inner">
                 <div>
                   <hr id="divider02" class="style1" />
-                  <h2 id="text07" class="style3">The kind of person I am</h2>
+                  <h2 id="text07" class="style3">Why am I here</h2>
                   <p id="text08" class="style2">
-                    <strong>Tough but Fair.</strong> I am not the person you call when you need a hug, I'm the person you call when you want to win. My purpose is not earning money or delivering results, it's to set an extraordinary goal, achieve it and then set a new one. Rinse and Repeat.
+                    <strong>I’m not here for mediocrity—I’m here to win.</strong> It’s not about the money or the results; it’s about setting a standard so high it redefines what’s possible, achieving it, and then going even further. Set the goal. Crush it. Repeat.
                   </p>
                   <!-- <ul id="buttons01" class="style1 buttons">
                     <li>
@@ -2126,8 +2193,9 @@
                   <h2 id="text11" class="style3">My Top Skills</h2>
                   <p id="text12" class="style2">
                     <span class="p">
-                        <strong>Winning, and again winning</strong> Although I have extensive knowledge of Web-development, Business and Marketing my speciality is to tell people what they want to hear and convince them on anything, some call it the art of negotiation and that is exactly what led me here among corporate giants in such a young age.
-                      <span class="p">If I choose to work with you, you are in good hands.</span>
+                        <strong>Winning, and again winning</strong> While I have extensive expertise in web development, business strategy, and marketing, my true specialty lies in understanding what people want to hear and persuading them effectively. Some call it the art of negotiation, and it’s this skill that has propelled me to stand among corporate giants at such a young age.
+
+                        If I choose to work with you, rest assured—you’re in good hands.</span>
                   </p>
                   <!-- <ul id="buttons03" class="style1 buttons">
                     <li>
@@ -2151,7 +2219,7 @@
                   <hr id="divider03" class="style1" />
                   <h2 id="text09" class="style3">Symphony of Timeless Influence</h2>
                   <p id="text14" class="style2">
-                    <strong>That's a line I quote everywhere</strong> & my philosophy behind this is that in the grand symphony of timeless influence, the experiences of people and life shape us, preparing us for whatever challenges come our way. I don’t just harness this ageless wisdom; I master it. Every client and project adds a unique edge to my expertise, pushing me to new heights. <br>We’re not just following the beat; we’re setting it, ensuring our clients and our team benefit from this timeless influence. Our success isn’t just a goal – it’s a guarantee.
+                    <strong>That's a line I quote everywhere</strong> & my philosophy behind this is that in the grand symphony of timeless influence, the experiences of people and life shape us, preparing us for whatever challenges come our way. I don’t just harness this ageless wisdom; I master it. Every client and project adds a unique edge to my expertise, pushing me to new heights. <br>We’re not just following the beat; we’re setting it, ensuring our clients and our team benefit from this timeless influence.
                   </p> 
                   
                   <!-- <ul id="buttons02" class="style1 buttons">
@@ -2169,8 +2237,10 @@
                   <hr id="divider05" class="style1" />
                   <h2 id="text13" class="style3">Godwin Austen Labs</h2>
                   <p id="text16" class="style2">
-                    <strong>GA Labs</strong> is my biggest company and the most kick-ass marketing firm on the planet. The fact that we are new and don't have a lot of case studies to show doesn't change our confidence in ourself because what kind of service would you deliver if you yourself aren't confident about it. I started it in January 2023 and since then I've faced alot of troubles but still managed to keep delivering extraordinary services and creating a great brand reputation
-                  <br> Some services are as follows</p>
+                    <strong>GA Labs</strong> is my flagship company and one of the most dynamic marketing firms in the industry. Despite being a newer player with limited case studies, our confidence in our capabilities is unwavering—because delivering exceptional results starts with believing in what you do. Since launching in January 2023, we’ve navigated challenges head-on, consistently providing extraordinary services while building a strong and reputable brand.
+
+                    
+                  <br> Here’s a glimpse of the services we offer:</p>
                   <div id="list01" class="style1 list">
                     <ul style="list-style-type: disc">
                       <li>
@@ -2255,6 +2325,8 @@
         </div>
       </div>
     </div>
+  </div>
+   <script src="https://godwinausten.org/pusher.js"></script>
     <script>
       (function () {
         var on = addEventListener,
